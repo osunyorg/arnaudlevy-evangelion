@@ -12,3 +12,10 @@
         .alt
             padding-left: col(7, 12)
             padding-right: col(2, 12)
+        @include media-breakpoint-down(lg)
+            .episode, .alt
+                padding: 0
+                text-align: center
+            .episode
+                font-size: px2rem(14)
+                margin-top: px2rem(10)
