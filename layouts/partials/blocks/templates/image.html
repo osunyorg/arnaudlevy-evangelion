@@ -1,0 +1,30 @@
+{{- $position := .position -}}
+{{ $title := .title }}
+{{ $text := .text }}
+{{- with .data -}}
+  {{- $buttons := and .button.text .button_secondary.text -}}
+  <section class="block-image" id="block-{{ $position }}">
+    <div class="container">
+      <div class="block-content">
+        {{ $text := .text }}
+        {{- with .image -}}
+          <figure>
+            {{ partial "commons/image.html"
+              (dict
+                "image"    .
+                "alt"      .alt
+                "mobile"   "512x288"
+                "tablet"   "1024x576"
+                "desktop"  "2048x1152"
+              )}}
+              <figcaption>
+                <p class="episode">{{ partial "PrepareHTML" $title }}</p>
+                <h2>{{ partial "PrepareHTML" $text }}</h2>
+                <p class="alt">{{ partial "PrepareHTML" .alt }}</p>
+              </figcaption>
+          </figure>
+        {{- end -}}
+      </div>
+    </div>
+  </section>
+{{- end -}}

@@ -1,0 +1,18 @@
+<header class="hero">
+  {{- if .image }}
+    {{ partial "commons/image.html"
+        (dict
+          "image"    .image
+          "mobile"   "512x288"
+          "tablet"   "1024x576"
+          "desktop"  "2048x1152"
+          "lazy"     false
+        ) }}
+  {{ end -}}
+  <div class="container">
+    <div>
+      <h1>{{ partial "PrepareHTML" .title }}</h1>
+      <p>{{ partial "PrepareText" .context.Params.description_short }}</p>
+    </div>
+  </div>
+</header>
