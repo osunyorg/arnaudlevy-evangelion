@@ -2,3 +2,6 @@
 	path = themes/osuny-hugo-theme
 	url = git@github.com:noesya/osuny-hugo-theme.git
 	branch = refactor-sass
+[submodule "themes/osuny-hugo-theme-aaa"]
+	path = themes/osuny-hugo-theme-aaa
+	url = git@github.com:noesya/osuny-hugo-theme-aaa.git
