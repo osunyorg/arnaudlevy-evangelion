@@ -1,0 +1,52 @@
+header#document-header
+    display: none
+.hero
+    padding-top: 0
+    margin-bottom: 10rem
+    img
+        height: 80vh
+        object-fit: cover
+        opacity: 1 !important
+        width: 100%
+        @include media-breakpoint-down(lg)
+            height: 70vh
+    p
+        @extend .meta
+        text-align: center
+        padding-left: col(2, 12)
+        padding-right: col(2, 12)
+    &::after
+      content: "↓"
+      color: white
+      text-align: center
+      display: block
+h1
+    color: $color-accent
+    font-family: $body-font-family
+    font-size: px2rem(120)
+    font-weight: bold
+    margin-top: px2rem(-60)
+    letter-spacing: px2rem(10)
+    text-align: center
+    text-transform: uppercase
+    @include media-breakpoint-down(lg)
+        font-size: px2rem(30)
+        margin-top: px2rem(-10)
+h2
+    color: $color-accent
+    @include in-page-with-or-without-sidebar
+        font-weight: 100 !important
+        font-size: px2rem(80) !important
+        @include media-breakpoint-down(desktop)
+            font-size: px2rem(50) !important
+
+.toc-cta
+    background: $color-background
+
+.block
+    margin-bottom: $spacing5
+
+footer#document-footer
+    .container
+        text-align: center
+        display: block
