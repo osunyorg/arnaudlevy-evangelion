@@ -13,8 +13,8 @@ header#document-header
     p
         @extend .meta
         text-align: center
-        padding-left: col(2, 12)
-        padding-right: col(2, 12)
+        padding-left: columns(2)
+        padding-right: columns(2)
     &::after
       content: "↓"
       color: white
@@ -23,28 +23,28 @@ header#document-header
 h1
     color: $color-accent
     font-family: $body-font-family
-    font-size: px2rem(120)
+    font-size: pxToRem(120)
     font-weight: bold
-    margin-top: px2rem(-55)
-    letter-spacing: px2rem(10)
+    margin-top: pxToRem(-55)
+    letter-spacing: pxToRem(10)
     text-align: center
     text-transform: uppercase
     @include media-breakpoint-down(lg)
-        font-size: px2rem(30)
-        margin-top: px2rem(-10)
+        font-size: pxToRem(30)
+        margin-top: pxToRem(-10)
 h2
     color: $color-accent
     @include in-page-with-or-without-sidebar
         font-weight: 100 !important
-        font-size: px2rem(80) !important
+        font-size: pxToRem(80) !important
         @include media-breakpoint-down(desktop)
-            font-size: px2rem(50) !important
+            font-size: pxToRem(50) !important
 
 .toc-cta
     background: $color-background
 
 .block
-    margin-bottom: $spacing5
+    margin-bottom: $spacing-7
 
 @include media-breakpoint-up(desktop)
     main > .blocks .block-image figure img, 
