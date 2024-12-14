@@ -5,5 +5,6 @@ items:
   target: "/2023/"
   kind: page
   children: []
+  path: "/pages/2023"
   file: content/fr/pages/2023/_index.html
 
