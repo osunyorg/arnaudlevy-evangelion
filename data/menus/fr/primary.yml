@@ -4,6 +4,7 @@ items:
 - title: '2023'
   target: "/2023/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/2023"
   file: content/fr/pages/2023/_index.html
