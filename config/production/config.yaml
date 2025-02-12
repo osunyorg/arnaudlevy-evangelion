@@ -2,6 +2,11 @@
 
 baseURL: https://evangelion.arnaudlevy.com
 
+## OSUNY
+osuny:
+  website:
+    id: ecbe33ca-81f2-4621-9ea5-d3eb5b7a1e3f
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
