@@ -8,4 +8,25 @@ items:
   children: []
   path: "/pages/2023"
   file: content/fr/pages/2023/_index.html
+- title: Actualités
+  target: "/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
+- title: Équipe
+  target: "/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Organisations
+  target: "/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 
