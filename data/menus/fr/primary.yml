@@ -2,31 +2,39 @@
 title: Primary
 items:
 - title: '2023'
+  slug: '2023'
   target: "/2023/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/2023"
   file: content/fr/pages/2023/_index.html
 - title: Actualités
+  slug: actualites
   target: "/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Équipe
+  slug: equipe
   target: "/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Organisations
+  slug: organisations
   target: "/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 
