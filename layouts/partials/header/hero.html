@@ -12,7 +12,7 @@
   <div class="container">
     <div>
       <h1>{{ partial "PrepareHTML" .title }}</h1>
-      <p>{{ partial "PrepareText" .context.Params.description_short }}</p>
+      <p>{{ safeHTML .context.Params.description_short }}</p>
     </div>
   </div>
 </header>
