@@ -12,7 +12,7 @@ items:
   file: content/fr/pages/2023/_index.html
 - title: Actualités
   slug: actualites
-  target: "/"
+  target: "/actualites/"
   kind: page
   new_tab: false
   children: []
@@ -21,7 +21,7 @@ items:
   file: content/fr/posts/_index.html
 - title: Équipe
   slug: equipe
-  target: "/"
+  target: "/equipe/"
   kind: page
   new_tab: false
   children: []
@@ -30,7 +30,7 @@ items:
   file: content/fr/persons/_index.html
 - title: Organisations
   slug: organisations
-  target: "/"
+  target: "/organisations/"
   kind: page
   new_tab: false
   children: []
